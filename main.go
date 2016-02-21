@@ -14,7 +14,7 @@ var (
 	locationHeaderV    []byte
 	notFoundAddr       = flag.String("notFoundAddr", ":8088", "TCP address to listen to")
 	redirAddr          = flag.String("redirAddr", ":8089", "TCP address to listen to")
-	redirDest          = flag.String("redirDest", "http://ruskline.ru", "TCP address to listen to")
+	redirDest          = flag.String("redirDest", "http://example.com/", "TCP address to listen to")
 )
 
 func init() {
