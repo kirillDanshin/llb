@@ -11,7 +11,7 @@ cd llb
 go build
 # run in background with default ports 
 # but custom redirect destination
-((./llb -redirDest=https://google.com/ &)&)&
+((./llb -redirDest="https://google.com/" &)&)&
 ```
 
 Than setup your proxy to send any invalid requests like invalid host etc to this backend.
